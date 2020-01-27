@@ -313,7 +313,7 @@ PrefabInstance:
     - target: {fileID: 726527287472277517, guid: 657313ed37665534ca96076d14a7b760,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 726527287472277517, guid: 657313ed37665534ca96076d14a7b760,
         type: 3}
@@ -462,8 +462,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.19847223}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000024796, y: -233}
-  m_SizeDelta: {x: 840.8, y: -139.1}
+  m_AnchoredPosition: {x: 17, y: -119.8}
+  m_SizeDelta: {x: 840.8, y: -239.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724309186
 MonoBehaviour:
@@ -922,7 +922,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446653256}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -965,7 +965,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -300, y: 420}
+  m_AnchoredPosition: {x: -150, y: 420}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1529341218
@@ -1095,7 +1095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 788, y: 420}
+  m_AnchoredPosition: {x: 510, y: 420}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1563503631
@@ -1381,7 +1381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 350, y: 420}
+  m_AnchoredPosition: {x: 158, y: 420}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1659730714
@@ -1491,7 +1491,7 @@ PrefabInstance:
     - target: {fileID: 1272969474122805221, guid: a276c4762359ee44cb8e0c26f3d83f37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.055
       objectReference: {fileID: 0}
     - target: {fileID: 1272969474122805221, guid: a276c4762359ee44cb8e0c26f3d83f37,
         type: 3}
@@ -1501,17 +1501,17 @@ PrefabInstance:
     - target: {fileID: 1272969474122805221, guid: a276c4762359ee44cb8e0c26f3d83f37,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1272969474122805221, guid: a276c4762359ee44cb8e0c26f3d83f37,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1272969474122805221, guid: a276c4762359ee44cb8e0c26f3d83f37,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1272969474122805221, guid: a276c4762359ee44cb8e0c26f3d83f37,
         type: 3}
@@ -1542,6 +1542,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RemoteControlledCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111607005889944863, guid: a276c4762359ee44cb8e0c26f3d83f37,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111607005889944863, guid: a276c4762359ee44cb8e0c26f3d83f37,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111607005889944863, guid: a276c4762359ee44cb8e0c26f3d83f37,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a276c4762359ee44cb8e0c26f3d83f37, type: 3}
