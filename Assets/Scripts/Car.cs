@@ -40,6 +40,7 @@ public class Car : MonoBehaviour
     public void Turn(float rate)
     {
         transform.Rotate(Vector3.up, rate * turnSpeed * Time.deltaTime);
-    }
+    }
+
 
 }
